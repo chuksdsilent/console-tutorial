@@ -49,7 +49,7 @@ In the picture below, you will see that my info tab is selected. Also you notice
 ### Output
 ![Console.info output](infooutput.PNG)
 
-# console.warn()
+### console.warn()
 From the picture, you can see the warning side beside the text which shows this is a warning.
 
 ```javascript
@@ -98,7 +98,7 @@ The %c symbol tells the log method to apply whatever CSS styles are passed as th
 
 We are done with the basic and familiar console methods that we constantly use while debugging. Now lets look at other methods which can also help and improve our debugging skills
 
-### table()
+### console.table()
 Console.table display an array of items or array of json objects into tables 
 
 ```javascript
@@ -107,13 +107,13 @@ Console.table display an array of items or array of json objects into tables
 #### Output
 ![Console.table output](tableoutput.PNG)
 
-### clear()
+### console.clear()
 The clears the console environment if it allows it. 
 
 ```javascript
     console.clear()
 ```
-### count()
+### console.count()
 This count the number of times a variable was called or logged to the console
 
 ```javascript
@@ -126,7 +126,7 @@ This count the number of times a variable was called or logged to the console
 #### Output
 ![Console.count output](countoutput.PNG)
 
-### countReset()
+### console.countReset()
 This reset the counter
 
 ```javascript
@@ -135,7 +135,7 @@ This reset the counter
     console.countReset(name)
 ```
 
-### dir()
+### console.dir()
 This almost work the same way as log but the difference come in their display of html tags. while console.log() display html syntax as tags console.dir displays html syntax as objects.
 
 
@@ -146,7 +146,7 @@ This almost work the same way as log but the difference come in their display of
 #### Output
 ![Console.dir output](diroutput.PNG)
 
-### group()
+### console.group()
  The console.group() method creates a new group in the console log, such that any message that logged will be tabbed on the group until console.groupEnd() is called.
 
 
@@ -166,7 +166,7 @@ console.log("Back to the outer Group");
 #### Output
 ![Console.group output](groupoutput.PNG)
 
-### groupCollapsed()
+### console.groupCollapsed()
  The console.groupCollapsed() method is the same with group method but it will collapse by default until the user expands it using the disclosure button.
 
 ```javascript
