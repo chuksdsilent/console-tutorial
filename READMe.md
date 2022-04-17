@@ -33,6 +33,9 @@ Now lets look at example of how to use this javascript basic console to debug ou
     console.log("The student name is ", name)
 ```
 
+
+
+
 ![Console.log output](logoutput.PNG)
 
 As you can see my log tab is selected and that is why the console.log was able to show the output.
