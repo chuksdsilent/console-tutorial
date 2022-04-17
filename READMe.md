@@ -64,7 +64,29 @@ From the picture you can see the warning side beside the text which shows this i
 
 ![Console.error output](erroroutput.PNG)
 
-From the picture you can see the error sign beside the text and also this is mostly in red color to show it is an error.
+From the picture you can see the error sign beside the text and also the text is always in red color to show it is an error.
 
+## Advanced Console Logging method
+Now lets look at a bit advanced method of logging in javascript. Sometimes you may want you output to appear in a certain format which might be difficult 
+to do using the basic console method syntax. I will
+show you how you can customize or format your output.
 
+This can be achieved in two way
+* String Formatting
+* Color Formatting (using css)
 
+In **String Formatting** you use data types and the values which are placed inside double quote
+
+```javascript
+    console.log("Name: %s, Age: %d, Salary: %f", "Nwachukwu Nnamdi", 34, 100.00)
+```
+
+In the above example, you will see the use of %s, %d and %f. These are placeholders which represents the values, %s is for string values,  %d is for integer value and  %f is for decimal values.
+
+The second part is the color formatting using css
+
+```javascript
+console.log("This is in blue color %c", "color: blue")
+```
+
+The %c symbol tells the log method to apply whatever CSS styles are passed as the next argument to the log method to all the text that comes after the %c. 
