@@ -1,11 +1,11 @@
 # Javascript Console Methods That will improve your debugging
 Alot of us (Javascript developers) have been using the console to debug our applications 
-but most of the time what we use only console.log but there are other method which you can use in different cases
+but most of the time what we use most of the time is only console.log but there are other method which you can use in different cases
 
-Today I am going to show your some console methods that will help you debug faster and also 
+Today I am going to show you some console methods that will help you debug faster and also 
 code faster. 
 
-There are more that 15 console methods you can use and each of them have their unique cases where
+There are more than 15 console methods you can use and each of them have their unique cases where
 they are applied.
 
 ## Basic console Logging methods
@@ -16,7 +16,7 @@ We will start of with the basic console methods which many of us know about. We 
 * Console.warn("Shows warning")
 * Console.error("displays errors")
 
-Before you can see the output of this codes you need to open your console and select the appropriate tab to show you any of the above. You can show or hide any of the console by toggling it.
+Before you can see the output of this codes you need to open your console and select the appropriate tab to show you any of the above. You can show or hide any of the console method by toggling it.
 
 
 ![Console](img.PNG)
@@ -25,7 +25,7 @@ As you can see from the above image all the tabs are are selected except warning
 
 ## Examples of Basic Console Logging Methods
 
-Now lets look at example of how to use this javascript basic console to debug our code. 
+Now let's look at example of how to use this javascript basic console to debug our code. 
 
 ### Console.log()
 
@@ -41,7 +41,7 @@ As you can see in the picture below that my log tab is selected and that is why 
 
 ### console.info()
 
-In the picture below, you will see that my info tab is selected. Also you notice the i icon beside the text which shows that this is info.
+In the picture below, you will see that my info tab is selected. Also you notice the ***i*** icon beside the text which shows that this is info.
 
 ```javascript
     console.info("const values cannot be changed...")
@@ -99,7 +99,7 @@ The %c symbol tells the log method to apply whatever CSS styles are passed as th
 We are done with the basic and familiar console methods that we constantly use while debugging. Now lets look at other methods which can also help and improve our debugging skills
 
 ### table()
-Console.table display an array or array of json objects into tables 
+Console.table display an array of items or array of json objects into tables 
 
 ```javascript
     console.table(["Keyboard", "Mouse", "Monitor"])
