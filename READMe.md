@@ -101,6 +101,7 @@ Console.table display an array or array of json objects into tables
 ```javascript
     console.table(["Keyboard", "Mouse", "Monitor"])
 ```
+#### Output
 ![Console.table output](tableoutput.PNG)
 
 ### clear()
@@ -113,14 +114,21 @@ The clears the console environment if it allows it.
 This count the number of times a variable was called or logged to the console
 
 ```javascript
-    const name = "Nwachukwu James"
+    const name = "Nwachukwu Ifunanya"
+    console.count(name)
+    console.count(name)
+    console.count(name)
     console.count(name)
 ```
+#### Output
+![Console.count output](countoutput.PNG)
+
 ### countReset()
 This reset the counter
 
 ```javascript
-    const name = "Nwachukwu James"
+    const name = "Nwachukwu Ifunanya"
+    console.count(name)
     console.countReset(name)
 ```
 
@@ -130,8 +138,45 @@ This almost work the same way as log but the difference come in their display of
 
 
 ```javascript
-    const name = "Nwachukwu James"
     console.dir(document)
 ```
 #### Output
 ![Console.dir output](diroutput.PNG)
+
+### group()
+ The console.group() method creates a new group in the console log, such that any message that logged will be tabbed on the group until console.groupEnd() is called.
+
+
+
+```javascript
+console.log("This is the outer level");
+console.group();
+console.log("Group 2");
+console.group();
+console.log("Group 3");
+console.warn("More of Group 3");
+console.groupEnd();
+console.log("Back to Group 2");
+console.groupEnd();
+console.log("Back to the outer Group");
+```
+#### Output
+![Console.group output](groupoutput.PNG)
+
+### groupCollapsed()
+ The console.groupCollapsed() method is the same with group method but it will collapse by default until the user expands it using the disclosure button.
+
+```javascript
+console.log("This is the outer level");
+console.group();
+console.log("Group 2");
+console.group();
+console.log("Group 3");
+console.warn("More of Group 3");
+console.groupEnd();
+console.log("Back to Group 2");
+console.groupEnd();
+console.log("Back to the outer Group");
+```
+#### Output
+![Console.group output](groupoutput.PNG)
