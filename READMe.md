@@ -1,4 +1,4 @@
-# Console Methods That will improve your debugging
+# Javascript Console Methods That will improve your debugging
 Alot of us (Javascript developers) have been using the console for debugging our applications 
 but most of the time what we use is console.log
 
