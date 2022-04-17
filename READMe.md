@@ -95,7 +95,7 @@ The %c symbol tells the log method to apply whatever CSS styles are passed as th
 
 We are done with the basic and familiar console methods that we constantly use while debugging. Now lets look at other methods which can also help and improve our debugging skills
 
-### Table
+### table()
 Console.table display an array or array of json objects into tables 
 
 ```javascript
@@ -103,14 +103,35 @@ Console.table display an array or array of json objects into tables
 ```
 ![Console.table output](tableoutput.PNG)
 
-### Clear
+### clear()
+The clears the console environment if it allows it. 
 
 ```javascript
     console.clear()
 ```
-The clears the console environment if it allows it. 
+### count()
+This count the number of times a variable was called or logged to the console
+
+```javascript
+    const name = "Nwachukwu James"
+    console.count(name)
+```
+### countReset()
+This reset the counter
+
+```javascript
+    const name = "Nwachukwu James"
+    console.countReset(name)
+```
+
+### dir()
+This almost work the same way as log but the difference come in their display of html tags. while console.log() display html syntax as tags console.dir displays html syntax as objects.
 
 
 
-
-
+```javascript
+    const name = "Nwachukwu James"
+    console.dir(document)
+```
+#### Output
+![Console.dir output](diroutput.PNG)
