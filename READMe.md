@@ -2,7 +2,7 @@
 Alot of us (Javascript developers) have been using the console to debug our applications 
 but most of the time what we use only console.log but there are other method which you can use in different cases
 
-Today I am going to show your some console methods that weill help you debug faster and also 
+Today I am going to show your some console methods that will help you debug faster and also 
 code faster. 
 
 There are more that 15 console methods you can use and each of them have their unique cases where
@@ -90,3 +90,27 @@ console.log("This is in blue color %c", "color: blue")
 ```
 
 The %c symbol tells the log method to apply whatever CSS styles are passed as the next argument to the log method to all the text that comes after the %c. 
+
+## Other Console Logging Methods.
+
+We are done with the basic and familiar console methods that we constantly use while debugging. Now lets look at other methods which can also help and improve our debugging skills
+
+### Table
+Console.table display an array or array of json objects into tables 
+
+```javascript
+    console.table(["Keyboard", "Mouse", "Monitor"])
+```
+![Console.table output](tableoutput.PNG)
+
+### Clear
+
+```javascript
+    console.clear()
+```
+The clears the console environment if it allows it. 
+
+
+
+
+
