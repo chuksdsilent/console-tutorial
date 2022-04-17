@@ -27,44 +27,47 @@ As you can see from the above image all the tabs are are selected except warning
 
 Now lets look at example of how to use this javascript basic console to debug our code. 
 
+### Console.log()
+
+As you can see in the picture below that my log tab is selected and that is why the console.log was able to show in the output.
+
 ```javascript
     let name = "Nwankwo Ifeanyi";
 
     console.log("The student name is ", name)
 ```
-
-
-
-
+### Output
 ![Console.log output](logoutput.PNG)
 
-As you can see my log tab is selected and that is why the console.log was able to show the output.
+### console.info()
 
+In the picture below, you will see that my info tab is selected. Also you notice the i icon beside the text which shows that this is info.
 
 ```javascript
     console.info("const values cannot be changed...")
 ```
-
+### Output
 ![Console.info output](infooutput.PNG)
 
-From the picture above you will see that my info tab is selected. Also you notice the i icon beside the text which shows that this is info.
+# console.warn()
+From the picture, you can see the warning side beside the text which shows this is a warning.
 
 ```javascript
     console.warn("const values cannot be changed...")
 ```
-
+### Output
 ![Console.warn output](warningoutput.PNG)
 
-From the picture you can see the warning side beside the text which shows this is a warning.
 
+### console.error()
+
+In the picture below, you can see the error sign beside the text and also the text is always in red color to show it is an error.
 
 ```javascript
     console.error("Undefined variable name")
 ```
-
+### output
 ![Console.error output](erroroutput.PNG)
-
-From the picture you can see the error sign beside the text and also the text is always in red color to show it is an error.
 
 ## Advanced Console Logging method
 Now lets look at a bit advanced method of logging in javascript. Sometimes you may want you output to appear in a certain format which might be difficult 
@@ -178,5 +181,3 @@ console.log("Back to Group 2");
 console.groupEnd();
 console.log("Back to the outer Group");
 ```
-#### Output
-![Console.group output](groupoutput.PNG)
